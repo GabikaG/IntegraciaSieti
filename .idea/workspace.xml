@@ -2,8 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ac1ea240-e066-45e1-8fe1-a776cf52af22" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/cv3_script" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cv3_script" beforeDir="false" afterPath="$PROJECT_DIR$/cv3_script" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -16,8 +15,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/cv2_script">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="663">
-              <caret line="39" column="43" selection-start-line="39" selection-start-column="43" selection-end-line="39" selection-end-column="43" />
+            <state relative-caret-position="34">
+              <caret line="2" selection-start-line="2" selection-end-line="2" selection-end-column="11" />
             </state>
           </provider>
         </entry>
@@ -25,8 +24,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/cv3_script">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="697">
-              <caret line="41" column="36" lean-forward="true" selection-end-line="41" selection-end-column="36" />
+            <state relative-caret-position="747">
+              <caret line="51" column="23" selection-end-line="52" selection-end-column="7" />
             </state>
           </provider>
         </entry>
@@ -45,10 +44,9 @@
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="260" />
-    <option name="y" value="20" />
-    <option name="width" value="1400" />
-    <option name="height" value="1000" />
+    <option name="x" value="-7" />
+    <option name="width" value="974" />
+    <option name="height" value="1047" />
   </component>
   <component name="ProjectLevelVcsManager">
     <ConfirmationsSetting value="2" id="Add" />
@@ -101,7 +99,7 @@
       <updated>1551279275687</updated>
       <workItem from="1551279280990" duration="2757000" />
       <workItem from="1551874203987" duration="937000" />
-      <workItem from="1551877718417" duration="2883000" />
+      <workItem from="1551877718417" duration="3834000" />
     </task>
     <task id="LOCAL-00001" summary="cv2 IS commit">
       <created>1551281389684</created>
@@ -117,11 +115,18 @@
       <option name="project" value="LOCAL" />
       <updated>1551877343906</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="cv3 IS first commit">
+      <created>1551882402229</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1551882402229</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="6577000" />
+    <option name="totallyTimeSpent" value="7528000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -133,10 +138,10 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="260" y="20" width="1400" height="1000" extended-state="0" />
+    <frame x="-7" y="0" width="974" height="1047" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25765496" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.37787515" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -167,20 +172,21 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="cv2 IS commit" />
     <MESSAGE value="cv2 IS commit test" />
-    <option name="LAST_COMMIT_MESSAGE" value="cv2 IS commit test" />
+    <MESSAGE value="cv3 IS first commit" />
+    <option name="LAST_COMMIT_MESSAGE" value="cv3 IS first commit" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/cv2_script">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="663">
-          <caret line="39" column="43" selection-start-line="39" selection-start-column="43" selection-end-line="39" selection-end-column="43" />
+        <state relative-caret-position="34">
+          <caret line="2" selection-start-line="2" selection-end-line="2" selection-end-column="11" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/cv3_script">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="697">
-          <caret line="41" column="36" lean-forward="true" selection-end-line="41" selection-end-column="36" />
+        <state relative-caret-position="747">
+          <caret line="51" column="23" selection-end-line="52" selection-end-column="7" />
         </state>
       </provider>
     </entry>
