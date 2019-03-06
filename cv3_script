@@ -64,4 +64,4 @@ resources:
     type: OS::Neutron::RouterInterface
     properties:
       router: { get_resource: Router }
-      router: { get_resource: RouterPort }
+      port: { get_resource: RouterPort }

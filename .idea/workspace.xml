@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ac1ea240-e066-45e1-8fe1-a776cf52af22" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cv3_script" beforeDir="false" afterPath="$PROJECT_DIR$/cv3_script" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -24,8 +25,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/cv3_script">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="747">
-              <caret line="51" column="23" selection-end-line="52" selection-end-column="7" />
+            <state relative-caret-position="764">
+              <caret line="66" column="40" lean-forward="true" selection-start-line="66" selection-start-column="40" selection-end-line="66" selection-end-column="40" />
             </state>
           </provider>
         </entry>
@@ -44,7 +45,7 @@
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="-7" />
+    <option name="x" value="953" />
     <option name="width" value="974" />
     <option name="height" value="1047" />
   </component>
@@ -99,7 +100,7 @@
       <updated>1551279275687</updated>
       <workItem from="1551279280990" duration="2757000" />
       <workItem from="1551874203987" duration="937000" />
-      <workItem from="1551877718417" duration="3834000" />
+      <workItem from="1551877718417" duration="5341000" />
     </task>
     <task id="LOCAL-00001" summary="cv2 IS commit">
       <created>1551281389684</created>
@@ -122,11 +123,25 @@
       <option name="project" value="LOCAL" />
       <updated>1551882402229</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="cv3 IS 2nd commit">
+      <created>1551883288034</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1551883288034</updated>
+    </task>
+    <task id="LOCAL-00005" summary="cv3 IS commit - routerPort, routerInterface">
+      <created>1551884477754</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1551884477754</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="7528000" />
+    <option name="totallyTimeSpent" value="9035000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -138,10 +153,10 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-7" y="0" width="974" height="1047" extended-state="0" />
+    <frame x="953" y="0" width="974" height="1047" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.37787515" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.23110624" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -173,7 +188,9 @@
     <MESSAGE value="cv2 IS commit" />
     <MESSAGE value="cv2 IS commit test" />
     <MESSAGE value="cv3 IS first commit" />
-    <option name="LAST_COMMIT_MESSAGE" value="cv3 IS first commit" />
+    <MESSAGE value="cv3 IS 2nd commit" />
+    <MESSAGE value="cv3 IS commit - routerPort, routerInterface" />
+    <option name="LAST_COMMIT_MESSAGE" value="cv3 IS commit - routerPort, routerInterface" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/cv2_script">
@@ -185,8 +202,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/cv3_script">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="747">
-          <caret line="51" column="23" selection-end-line="52" selection-end-column="7" />
+        <state relative-caret-position="764">
+          <caret line="66" column="40" lean-forward="true" selection-start-line="66" selection-start-column="40" selection-end-line="66" selection-end-column="40" />
         </state>
       </provider>
     </entry>
