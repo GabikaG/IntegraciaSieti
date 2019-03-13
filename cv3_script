@@ -113,3 +113,67 @@ resources:
     properties:
       floatingip_id: { get_resource: JumpFloatingIp }
       port_id: { get_resource: JumpPort }
+
+
+  SecurityGroup2:
+    type: OS::Neutron::SecurityGroup
+    properties:
+      name: jumpPrivateSecurityGroup
+      rules: [
+      { direction: ingress, ethertype: IPv4, protocol: tcp, port_range_min: 80, port_range_max: 80, remote_ip_prefix: 10.0.0.0/24 },
+      { direction: ingress, ethertype: IPv4, protocol: udp, port_range_min: 80, port_range_max: 80, remote_ip_prefix: 10.0.0.0/24 },
+      { direction: ingress, ethertype: IPv4, protocol: icmp, remote_ip_prefix: 10.0.0.0/16 }
+      ]
+
+  SquidPort:
+    type: OS::Neutron::Port
+    properties:
+      name: SquidPort
+      network: { get_resource: Net }
+      fixed_ips:
+        - ip_address: 10.0.0.151
+      security_groups:
+        - { get_resource: SecurityGroup2 }
+
+  Squid:
+    type: OS::Nova::Server
+    properties:
+      name: squid
+      availability_zone: compute1
+      flavor: linux
+      image: ubuntu_server_18.04_amd64_Openstack
+      user_data_update_policy: REPLACE
+      key_name: sshKeyCv3
+      networks:
+        - port: { get_resource: SquidPort }
+      user_data: |
+        #!/bin/bash
+        apt-get update -y
+        apt-get get install squid
+
+  Apache2Port:
+    type: OS::Neutron::Port
+    properties:
+      name: Apache2Port
+      network: { get_resource: Net }
+      fixed_ips:
+        - ip_address: 10.0.0.150
+      security_groups:
+        - { get_resource: SecurityGroup2 }
+
+  Apache2:
+    type: OS::Nova::Server
+    properties:
+      name: apache2
+      availability_zone: compute1
+      flavor: linux
+      image: ubuntu_server_18.04_amd64_Openstack
+      user_data_update_policy: REPLACE
+      key_name: sshKeyCv3
+      networks:
+        - port: { get_resource: Apache2Port }
+      user_data: |
+        #!/bin/bash
+        apt-get update -y
+        apt-get get install apache2
+
