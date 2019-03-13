@@ -24,8 +24,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/cv3_script">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="569">
-              <caret line="102" column="18" lean-forward="true" selection-start-line="102" selection-start-column="18" selection-end-line="102" selection-end-column="18" />
+            <state relative-caret-position="756">
+              <caret line="178" lean-forward="true" selection-end-line="179" />
             </state>
           </provider>
         </entry>
@@ -44,10 +44,9 @@
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-8" />
-    <option name="y" value="-8" />
-    <option name="width" value="1936" />
-    <option name="height" value="1056" />
+    <option name="x" value="-7" />
+    <option name="width" value="974" />
+    <option name="height" value="1047" />
   </component>
   <component name="ProjectLevelVcsManager">
     <ConfirmationsSetting value="2" id="Add" />
@@ -101,7 +100,7 @@
       <workItem from="1551279280990" duration="2757000" />
       <workItem from="1551874203987" duration="937000" />
       <workItem from="1551877718417" duration="6491000" />
-      <workItem from="1552478942485" duration="5646000" />
+      <workItem from="1552478942485" duration="8964000" />
     </task>
     <task id="LOCAL-00001" summary="cv2 IS commit">
       <created>1551281389684</created>
@@ -159,11 +158,18 @@
       <option name="project" value="LOCAL" />
       <updated>1552482499964</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="cv4 - securityGroup">
+      <created>1552484707927</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1552484707927</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="15831000" />
+    <option name="totallyTimeSpent" value="19149000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -214,7 +220,8 @@
     <MESSAGE value="cv3 IS commit - routerPort, routerInterface" />
     <MESSAGE value="cv3 IS commit - final" />
     <MESSAGE value="cv4 - floatingIP" />
-    <option name="LAST_COMMIT_MESSAGE" value="cv4 - floatingIP" />
+    <MESSAGE value="cv4 - securityGroup" />
+    <option name="LAST_COMMIT_MESSAGE" value="cv4 - securityGroup" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/cv2_script">
@@ -232,8 +239,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/cv3_script">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="569">
-          <caret line="102" column="18" lean-forward="true" selection-start-line="102" selection-start-column="18" selection-end-line="102" selection-end-column="18" />
+        <state relative-caret-position="756">
+          <caret line="178" lean-forward="true" selection-end-line="179" />
         </state>
       </provider>
     </entry>
