@@ -115,14 +115,26 @@ resources:
       port_id: { get_resource: JumpPort }
 
 
-  SecurityGroup2:
+  ApacheSecurityGroup:
     type: OS::Neutron::SecurityGroup
     properties:
-      name: jumpPrivateSecurityGroup
+      name: ApacheSecurityGroup
       rules: [
       { direction: ingress, ethertype: IPv4, protocol: tcp, port_range_min: 80, port_range_max: 80, remote_ip_prefix: 10.0.0.0/24 },
       { direction: ingress, ethertype: IPv4, protocol: udp, port_range_min: 80, port_range_max: 80, remote_ip_prefix: 10.0.0.0/24 },
-      { direction: ingress, ethertype: IPv4, protocol: icmp, remote_ip_prefix: 10.0.0.0/16 }
+      { direction: ingress, ethertype: IPv4, protocol: tcp, port_range_min: 22, port_range_max: 22, remote_ip_prefix: 10.0.0.0/24 },
+      { direction: ingress, ethertype: IPv4, protocol: icmp, remote_ip_prefix: 10.0.0.0/24 },
+      { direction: egress, ethertype: IPv4, protocol: icmp, remote_ip_prefix: 10.0.0.0/24 },
+      ]
+
+  SquidSecurityGroup:
+    type: OS::Neutron::SecurityGroup
+    properties:
+      name: SquidSecurityGroup
+      rules: [
+      { direction: ingress, ethertype: IPv4, protocol: tcp, port_range_min: 22, port_range_max: 22, remote_ip_prefix: 10.0.0.0/24 },
+      { direction: ingress, ethertype: IPv4, protocol: icmp, remote_ip_prefix: 10.0.0.0/24 },
+      { direction: egress, ethertype: IPv4, protocol: icmp, remote_ip_prefix: 10.0.0.0/24 },
       ]
 
   SquidPort:
@@ -133,7 +145,7 @@ resources:
       fixed_ips:
         - ip_address: 10.0.0.151
       security_groups:
-        - { get_resource: SecurityGroup2 }
+        - { get_resource: SquidSecurityGroup }
 
   Squid:
     type: OS::Nova::Server
@@ -159,7 +171,7 @@ resources:
       fixed_ips:
         - ip_address: 10.0.0.150
       security_groups:
-        - { get_resource: SecurityGroup2 }
+        - { get_resource: ApacheSecurityGroup }
 
   Apache2:
     type: OS::Nova::Server
