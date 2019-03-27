@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ac1ea240-e066-45e1-8fe1-a776cf52af22" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cv3_script" beforeDir="false" afterPath="$PROJECT_DIR$/cv3_script" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -13,19 +14,28 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/cv2_script">
+        <entry file="file://$PROJECT_DIR$/cv3_script">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="34">
-              <caret line="2" selection-start-line="2" selection-end-line="2" selection-end-column="11" />
+            <state relative-caret-position="467">
+              <caret line="147" column="32" lean-forward="true" selection-start-line="147" selection-start-column="32" selection-end-line="147" selection-end-column="32" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/cv3_script">
+        <entry file="file://$PROJECT_DIR$/../Downloads/cv3.yml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="161">
-              <caret line="119" lean-forward="true" selection-start-line="119" selection-end-line="119" />
+            <state relative-caret-position="527">
+              <caret line="34" column="42" lean-forward="true" selection-end-line="177" selection-end-column="28" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../Downloads/cv3_network.yml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="399">
+              <caret line="113" column="7" lean-forward="true" selection-start-line="105" selection-start-column="13" selection-end-line="113" selection-end-column="7" />
             </state>
           </provider>
         </entry>
@@ -56,7 +66,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -68,11 +77,12 @@
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../Downloads/cv3.yml" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
   </component>
   <component name="RunDashboard">
@@ -103,7 +113,8 @@
       <workItem from="1552478942485" duration="9697000" />
       <workItem from="1552497835285" duration="2470000" />
       <workItem from="1553013131308" duration="468000" />
-      <workItem from="1553087687006" duration="6449000" />
+      <workItem from="1553087687006" duration="6486000" />
+      <workItem from="1553678454881" duration="2784000" />
     </task>
     <task id="LOCAL-00001" summary="cv2 IS commit">
       <created>1551281389684</created>
@@ -182,11 +193,18 @@
       <option name="project" value="LOCAL" />
       <updated>1553090712241</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="cv5 - nefunguje to">
+      <created>1553096286520</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1553096286520</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="29269000" />
+    <option name="totallyTimeSpent" value="32090000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -198,10 +216,10 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="7" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.1392" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.1408" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -241,7 +259,8 @@
     <MESSAGE value="cv4 - securityGroup" />
     <MESSAGE value="cv4 - apache, squid" />
     <MESSAGE value="cv5 - funguje to" />
-    <option name="LAST_COMMIT_MESSAGE" value="cv5 - funguje to" />
+    <MESSAGE value="cv5 - nefunguje to" />
+    <option name="LAST_COMMIT_MESSAGE" value="cv5 - nefunguje to" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/cv4_script" />
@@ -252,10 +271,24 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/../Downloads/cv3_network.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="399">
+          <caret line="113" column="7" lean-forward="true" selection-start-line="105" selection-start-column="13" selection-end-line="113" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/cv3_script">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="161">
-          <caret line="119" lean-forward="true" selection-start-line="119" selection-end-line="119" />
+        <state relative-caret-position="467">
+          <caret line="147" column="32" lean-forward="true" selection-start-line="147" selection-start-column="32" selection-end-line="147" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../Downloads/cv3.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="527">
+          <caret line="34" column="42" lean-forward="true" selection-end-line="177" selection-end-column="28" />
         </state>
       </provider>
     </entry>
