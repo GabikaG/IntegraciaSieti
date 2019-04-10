@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="ac1ea240-e066-45e1-8fe1-a776cf52af22" name="Default Changelist" comment="" />
+    <list default="true" id="ac1ea240-e066-45e1-8fe1-a776cf52af22" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/cv3_script" beforeDir="false" afterPath="$PROJECT_DIR$/cv3_script" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -13,8 +15,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/cv3_script">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="518">
-              <caret line="48" column="37" lean-forward="true" selection-start-line="48" selection-start-column="37" selection-end-line="48" selection-end-column="37" />
+            <state relative-caret-position="501">
+              <caret line="146" column="32" lean-forward="true" selection-start-line="146" selection-start-column="32" selection-end-line="146" selection-end-column="32" />
             </state>
           </provider>
         </entry>
@@ -32,7 +34,7 @@
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="7">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="953" />
     <option name="width" value="974" />
     <option name="height" value="1047" />
@@ -95,7 +97,7 @@
       <workItem from="1553087687006" duration="6486000" />
       <workItem from="1553678454881" duration="3574000" />
       <workItem from="1553693480850" duration="3865000" />
-      <workItem from="1554895672794" duration="260000" />
+      <workItem from="1554895672794" duration="3851000" />
     </task>
     <task id="LOCAL-00001" summary="cv2 IS commit">
       <created>1551281389684</created>
@@ -206,7 +208,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="37005000" />
+    <option name="totallyTimeSpent" value="40596000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -218,7 +220,7 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1056" extended-state="7" />
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.144" />
@@ -278,8 +280,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/cv3_script">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="518">
-          <caret line="48" column="37" lean-forward="true" selection-start-line="48" selection-start-column="37" selection-end-line="48" selection-end-column="37" />
+        <state relative-caret-position="501">
+          <caret line="146" column="32" lean-forward="true" selection-start-line="146" selection-start-column="32" selection-end-line="146" selection-end-column="32" />
         </state>
       </provider>
     </entry>
