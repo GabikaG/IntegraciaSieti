@@ -1,0 +1,132 @@
+heat_template_version: 2016-04-08
+
+description: v1.0.0 Template for network
+
+parameters:
+  InetName:
+    description: NetName
+    type: string
+    default: inet
+
+  EnetName:
+    description: EnetName
+    type: string
+    default: ext-net
+
+  PrivateSubnetCidr:
+    description: PrivateSubnetCidr
+    type: string
+    label: CIDR
+    default: 10.0.0.0/24
+
+  RouterName:
+    description: RouterName
+    type: string
+    default: router
+
+  Zone:
+    type: string
+    label: Zone
+    default: compute1
+
+  Image:
+    type: string
+    label: Image
+    default: Debian_9.5.0_Openstack
+
+  Flavor:
+    type: string
+    label: Flavor
+    default: linux
+
+resources:
+  Net:
+    type: OS::Neutron::Net
+    properties:
+      admin_state_up: True
+      name: { get_param: InetName }
+      shared: False
+
+  PrivateSubnet:
+    type: OS::Neutron::Subnet
+    properties:
+      name: subnet
+      cidr: { get_param: PrivateSubnetCidr }
+      dns_nameservers:
+        - 8.8.8.8
+        - 8.8.4.4
+      enable_dhcp: True
+      network: { get_resource: Net }
+
+
+  Router:
+    type: OS::Neutron::Router
+    properties:
+      admin_state_up: True
+      name: { get_param: RouterName }
+      external_gateway_info: {
+        enable_snat: True,
+        network: { get_param: EnetName }
+      }
+
+  RouterPort:
+    type: OS::Neutron::Port
+    properties:
+      name: RouterPort
+      fixed_ips:
+        - ip_address: 10.0.0.1
+      network: { get_resource: Net }
+
+  RouterInterface:
+    type: OS::Neutron::RouterInterface
+    properties:
+      router: { get_resource: Router }
+      port: { get_resource: RouterPort }
+
+
+  ServerPort1:
+    type: OS::Neutron::Port
+    properties:
+      name: ServerPort1
+      fixed_ips:
+        - ip_address: 10.0.0.2
+      network: { get_resource: Net }
+
+  Server1:
+    type: OS::Nova::Server
+    properties:
+      name: server1
+      image: { get_param: Image }
+      flavor: { get_param: Flavor }
+      availability_zone: { get_param: Zone }
+      networks:
+        - port: { get_resource: ServerPort1 }
+      user_data_format: RAW
+      user_data: |
+        #!/bin/bash
+        apt-get update -y
+        apt-get get install mc -y
+
+
+  ServerPort2:
+    type: OS::Neutron::Port
+    properties:
+      name: ServerPort1
+      fixed_ips:
+        - ip_address: 10.0.0.3
+      network: { get_resource: Net }
+
+  Server2:
+    type: OS::Nova::Server
+    properties:
+      name: server2
+      image: { get_param: Image }
+      flavor: { get_param: Flavor }
+      availability_zone: { get_param: Zone }
+      networks:
+        - port: { get_resource: ServerPort2 }
+      user_data_format: RAW
+      user_data: |
+        #!/bin/bash
+        apt-get update -y
+        apt-get get install mc -y
