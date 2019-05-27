@@ -27,7 +27,6 @@ parameters:
     label: CIDR
     default: 192.168.0.0/24
 
-
   RouterName:
     description: RouterName
     type: string
