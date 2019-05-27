@@ -2,8 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ac1ea240-e066-45e1-8fe1-a776cf52af22" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/skuska_2" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/skuska_1" beforeDir="false" afterPath="$PROJECT_DIR$/cvicny1" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/skuska_2" beforeDir="false" afterPath="$PROJECT_DIR$/cvicny2" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -23,19 +24,19 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/skuska_2">
+        <entry file="file://$PROJECT_DIR$/cvicny2">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="169">
-              <caret line="96" column="30" selection-end-line="164" selection-end-column="33" />
+            <state relative-caret-position="-77">
+              <caret line="115" column="38" selection-start-line="115" selection-start-column="38" selection-end-line="115" selection-end-column="38" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/skuska_1">
+        <entry file="file://$PROJECT_DIR$/cvicny1">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="764">
-              <caret line="131" column="33" lean-forward="true" selection-start-line="86" selection-end-line="131" selection-end-column="33" />
+              <caret line="131" column="33" selection-start-line="86" selection-end-line="131" selection-end-column="33" />
             </state>
           </provider>
         </entry>
@@ -57,6 +58,7 @@
         <option value="$PROJECT_DIR$/cv3_script" />
         <option value="$PROJECT_DIR$/skuska_1" />
         <option value="$PROJECT_DIR$/skuska_2" />
+        <option value="$PROJECT_DIR$/cvicny2" />
       </list>
     </option>
   </component>
@@ -131,7 +133,7 @@
       <workItem from="1553693480850" duration="3865000" />
       <workItem from="1554895672794" duration="3896000" />
       <workItem from="1558875151490" duration="326000" />
-      <workItem from="1558875657492" duration="10947000" />
+      <workItem from="1558875657492" duration="11892000" />
     </task>
     <task id="LOCAL-00001" summary="cv2 IS commit">
       <created>1551281389684</created>
@@ -252,11 +254,18 @@
       <option name="project" value="LOCAL" />
       <updated>1558884348515</updated>
     </task>
-    <option name="localTasksCounter" value="18" />
+    <task id="LOCAL-00018" summary="version 1.0">
+      <created>1558889260307</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1558889260335</updated>
+    </task>
+    <option name="localTasksCounter" value="19" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="51914000" />
+    <option name="totallyTimeSpent" value="52859000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -269,7 +278,6 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.0752" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -337,17 +345,17 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/skuska_1">
+    <entry file="file://$PROJECT_DIR$/cvicny1">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="764">
-          <caret line="131" column="33" lean-forward="true" selection-start-line="86" selection-end-line="131" selection-end-column="33" />
+          <caret line="131" column="33" selection-start-line="86" selection-end-line="131" selection-end-column="33" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/skuska_2">
+    <entry file="file://$PROJECT_DIR$/cvicny2">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="169">
-          <caret line="96" column="30" selection-end-line="164" selection-end-column="33" />
+        <state relative-caret-position="-77">
+          <caret line="115" column="38" selection-start-line="115" selection-start-column="38" selection-end-line="115" selection-end-column="38" />
         </state>
       </provider>
     </entry>
